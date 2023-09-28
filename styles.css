@@ -102,15 +102,11 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
-          /* Temp */
-            border: 2px red solid;
 }
 
 .container-randominfo h2 {
     text-align: center;
     margin: 37px 0;
-            /* Temp */
-            border: 2px red solid;
 }
 
 .image-container {
@@ -118,8 +114,6 @@ ul {
     padding: 0;
     display: flex;
     gap: 54px;
-            /* Temp */
-            border: 2px blue solid;
 }
 
 .image {
@@ -129,8 +123,6 @@ ul {
     height: 250px;
     color: #1F2937;
     text-align: center;
-            /* Temp */
-            border: 2px red solid;
 }
 
 .image img{
@@ -147,15 +139,11 @@ ul {
 
 .container-quote {
     background-color: #E5E7EB;
-                /* Temp */
-                border: 2px red solid;
 }
 
 .quote-holder {
     margin: 0;
     padding: 80px 200px;
-                /* Temp */
-                border: 2px red solid;
 }
 
 .quote-holder .quote-text {
@@ -174,8 +162,6 @@ ul {
 
 .container-CTA {
      padding: 90px 180px;
-      /* Temp */
-       border: 2px red solid;
 }
 
 
@@ -185,9 +171,6 @@ ul {
     justify-content: space-between;
     padding: 40px 130px;
     border-radius: 8px;
-
-    /* Temp */
-    border: 2px red solid;
 }
 
 .CTA-holder p,button{
@@ -222,8 +205,6 @@ ul {
     align-items: center;
     padding: 40px 0;
     background-color: #1F2937;
-  /* Temp */
- border: 2px red solid;
 }
 
 .container-footer .footer-text {
