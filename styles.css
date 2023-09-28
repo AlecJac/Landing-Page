@@ -1,0 +1,231 @@
+/* All sections */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: Roboto;
+}
+
+/* 1/4 Section */
+
+.container-header {
+    padding: 20px 200px;
+    margin: 0;
+    color: white;
+    background-color: #1F2937;
+}
+
+.top-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.logo {
+    margin: 0;
+    padding: 0;
+    font-weight: 900;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+
+
+ul {
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+.bottom-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 60px;
+    gap: 10px;
+}
+
+
+.image-welcome {
+    background-color: grey;
+    color: white;
+    width: 850px;
+    height: 210px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-section {
+    margin: 0;
+    padding: 0; 
+}
+
+.welcome-section h1,p,button {
+    margin: 0;
+    padding: 0;
+}
+
+.welcome-section h1 {
+    font-size: 48px;
+    font-weight:  bold;
+}
+
+.welcome-section p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 10px;
+}
+
+.welcome-section button {
+    background-color: #3882F6;
+    border: none;
+    color: white;
+    padding: 4px 22px;
+    border-radius: 8px;
+    
+}
+
+/* 2/4 Section  */
+
+.container-randominfo {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+          /* Temp */
+            border: 2px red solid;
+}
+
+.container-randominfo h2 {
+    text-align: center;
+    margin: 37px 0;
+            /* Temp */
+            border: 2px red solid;
+}
+
+.image-container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 54px;
+            /* Temp */
+            border: 2px blue solid;
+}
+
+.image {
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    height: 250px;
+    color: #1F2937;
+    text-align: center;
+            /* Temp */
+            border: 2px red solid;
+}
+
+.image img{
+    height: 150px;
+    width: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 8px;
+}
+
+
+/*  3/4 Section */
+
+
+
+.container-quote {
+    background-color: #E5E7EB;
+                /* Temp */
+                border: 2px red solid;
+}
+
+.quote-holder {
+    margin: 0;
+    padding: 80px 200px;
+                /* Temp */
+                border: 2px red solid;
+}
+
+.quote-holder .quote-text {
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+    text-align: left;
+
+}
+.quote-holder .quoted {
+    text-align: right;
+    font-weight: bold;
+}
+
+/* 4/4 Section */
+
+.container-CTA {
+     padding: 90px 180px;
+      /* Temp */
+       border: 2px red solid;
+}
+
+
+.CTA-holder {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 130px;
+    border-radius: 8px;
+
+    /* Temp */
+    border: 2px red solid;
+}
+
+.CTA-holder p,button{
+    color: white;
+}
+
+.CTA-holder .text-CTA {
+    font-size: 22px;
+    font-weight: 800;
+
+}
+
+.CTA-holder button {
+    background-color: #3882F6;;
+    border: 2px white solid;
+    border-radius: 8px;
+    font-size: 17px;
+    padding: 1px 36px;
+    
+}
+
+.CTA-text-holder {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Footer section */
+
+.container-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    background-color: #1F2937;
+  /* Temp */
+ border: 2px red solid;
+}
+
+.container-footer .footer-text {
+    color: white;
+}
